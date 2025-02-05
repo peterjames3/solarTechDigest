@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import {inter} from '@/app/ui/font';
+//import { inter } from '@/app/ui/font';
 import "./globals.css";
-
+import Navbar from "@/app/ui/Navbar";
 
 
 export const metadata: Metadata = {
-  title: " %s | SolarTechDigest",
+  title: " SolarTechDigest",
   description: "Your Go-To for Solar Insights, News &  Expert Tips",
   icons:{
     icon:[
@@ -15,7 +15,8 @@ export const metadata: Metadata = {
     ],
     shortcut:'/favicon.ico',
   },
-  manifest:'/site.webmanifest'
+  manifest:'/site.webmanifest',
+
 };
 
 export default function RootLayout({
@@ -25,10 +26,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      
       <body
-        className={`${inter.className}  antialiased`}
+        
       >
-        {children}
+        <Navbar />
+        <main className="w-full mx-auto max-w-full md:max-w-[840px] xl:max-w-[1040px] px-4 md:px-0 mt-[5rem]">
+          {children}
+        </main>
       </body>
     </html>
   );
