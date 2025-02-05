@@ -60,6 +60,18 @@ export default function Hero() {
             ))}
           </ul>
         </nav>
+        {/* stats */}
+        <div className="w-full flex items-center justify-around">
+          <nav className="text-center">
+            <p className='text-[0.9rem] font-medium'>50+</p> 
+            <p className="text-[0.75rem]">Blog Posts</p>
+          </nav>
+          <nav className="text-center">
+            <p className='text-[0.9rem] font-medium'>100+</p>
+            <p className="text-[0.75rem]">Trusted by solar enthisiasts and solar owner</p>
+          </nav>
+
+        </div>
       </div>
 
       {/* Image Section (AMP & Non-AMP) */}
