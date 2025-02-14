@@ -11,11 +11,11 @@ export default function Hero() {
   ];
 
   return (
-    <section className="w-full flex flex-col md:flex-row py-2 gap-12 md:gap-10 min-h-[30rem]">
+    <section className="w-full flex flex-col md:flex-row py-2 gap-12 md:gap-10 min-h-[35rem] ">
       {/* Text Content */}
-      <div className="h-full w-full md:w-1/2 text-center md:text-start space-y-4">
+      <div className="h-full w-full md:w-1/2 text-center md:text-start space-y-6">
         <header>
-          <span className="bg-tertiary text-primary px-6 py-2 text-sm rounded-full font-semibold">
+          <span className="bg-tertiary text-primary px-8 py-2 text-sm rounded-full font-semibold">
             Blog
           </span>
           <h1 className="display leading-[3.5rem]">
@@ -63,12 +63,12 @@ export default function Hero() {
         {/* stats */}
         <div className="w-full flex items-center justify-around">
           <nav className="text-center">
-            <p className='text-[0.9rem] font-medium'>50+</p> 
-            <p className="text-[0.75rem]">Blog Posts</p>
+            <p className='text-[1rem] font-medium'>50+</p> 
+            <p className="text-[0.85rem]">Blog Posts</p>
           </nav>
           <nav className="text-center">
-            <p className='text-[0.9rem] font-medium'>100+</p>
-            <p className="text-[0.75rem]">Trusted by solar enthisiasts and solar owner</p>
+            <p className='text-[1rem] font-medium'>100+</p>
+            <p className="text-[0.85rem]">Trusted by solar enthisiasts and solar owner</p>
           </nav>
 
         </div>

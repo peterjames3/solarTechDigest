@@ -10,6 +10,7 @@ import MobileNavbar from "@/app/ui/MobileNavbar"
 export default function Navbar(){
     const [isOpen, setIsOpen ] = useState(false);
     const pathname = usePathname();
+    console.log(pathname);
 
     const Menu = [
        
@@ -34,7 +35,7 @@ export default function Navbar(){
                                 <Link key={index} href={item.href} 
                                     className={clsx(
                                         "sm:text-[0.79rem] md:text-[0.9rem] font-normal hover:text-primary",
-                                        isOpen && item.name === pathname && "text-primary"
+                                        item.href === pathname && "text-primary"
                                     )}>
                                     {item.name}
                                 </Link>

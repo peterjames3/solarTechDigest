@@ -7,8 +7,9 @@ const companies = [
     { name: "TrinaSolar", logo: "/trinasolar logo.png" },
     { name: "Exide", logo: "/exide headerLogo.jpg" },
     { name: "JY Solar", logo: "/Jysolar.webp" },
-    { name: "JA Solar", logo: "/jina.png" },
-    { name: "CanadianSolar", logo: "/CS-LOGO-RED-RGB-NEW-2024-W-TAG-2.png"}
+    { name: "Loom Solar", logo: "/loom_solar_logo.png" },
+    { name: "Sunrun", logo:"/sunrun_logo.svg.png"},
+  { name: "CanadianSolar", logo: "/CS-LOGO-RED-RGB-NEW-2024-W-TAG-2.png"},
   ];
 export default function FeaturedCompany(){
   

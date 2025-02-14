@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-//import { inter } from '@/app/ui/font';
-import "./globals.css";
+
+import "./globals.css"
 import Navbar from "@/app/ui/Navbar";
 
 
 export const metadata: Metadata = {
-  title: " SolarTechDigest",
+  title: " %s | SolarTechDigest",
   description: "Your Go-To for Solar Insights, News &  Expert Tips",
   icons:{
     icon:[
